@@ -1,0 +1,84 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+h1 {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 3rem;
+}
+p {
+  text-align: center;
+  font-size: 25px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px;
+}
+h3 {
+  text-align: center;
+  font-size: 35px;
+}
+
+button {
+  border-style: none;
+  background: white;
+}
+
+button:hover {
+  color: white;
+  background: cornflowerblue;
+}
+
+section {
+  width: 500px;
+  margin: 10px 0 0 100px;
+}
+
+.searchBox {
+  margin: 50px 0px 40px 0px;
+}
+
+.form-control {
+  padding: 0px 100px;
+}
+
+.appCenter {
+  width: 300px;
+  height: 300px;
+  border: 1px solid cornflowerblue;
+  border-radius: 50%;
+  border-width: 3px;
+  display: block;
+  margin: 0 auto;
+}
+
+.up {
+  margin: 50px 0 0 0;
+}
+
+section {
+  display: block;
+  margin: 0 auto;
+}
+
+.hour {
+  padding: 0%;
+  text-align: center;
+  width: 300px;
+}
+
+.temperature {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+div {
+  padding: 5px;
+  text-align: center;
+}

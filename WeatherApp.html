@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>WeatherApp</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="WeatherApp.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchBox">
+        <nav class="navbar navbar-light justify-content-center">
+          <form class="form-inline">
+            <input
+              class="form-control form-control-sm mr-sm-2"
+              type="search"
+              placeholder="Enter your city"
+              aria-label="Search"
+              id="search-text-input"
+            />
+            <button class="search" class="btn btn-sm btn-light my-2 my-sm-0" type="submit">
+              Search
+            </button>
+            <button id="current">
+              Current
+            </button>
+          </form>
+        </nav>
+      </div>
+      <h1 id="description">Take out your sunglasses!😎</h1>
+      <div class="appCenter">
+        <p class="up">Sunny</p>
+        <h2 id="temperature"><strong>32ºC</strong></h2>
+        <h3>Mexico City</h3>
+        <p class="date">FECHA</p>
+        <section class="hour">HORA</section>
+      </div>
+      <div id="humidity">
+        Humidity:0 Wind:0
+      </div>
+      <section>
+        <div class="row">
+          <div class="col-sm">
+            <strong>Monday</strong><br />15º/17º<br />☀</i>
+          </div>
+          <div class="col-sm"><strong>Tuesday</strong><br />15º/17º<br />⛅</div>
+          <div class="col-sm"><strong>Wednesday</strong><br />18º/20º<br />🌤</div>
+          <div class="col-sm"><strong>Thursday</strong><br />18º/22º<br />⛈</div>
+          <div class="col-sm"><strong>Friday</strong><br />19º/25º<br />🌩</div>
+        </div>
+      </section>
+    </div>
+    <script src="WeatherApp.js">
+    </script>
+  </body>
+</html>
